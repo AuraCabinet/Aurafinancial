@@ -1,10 +1,5 @@
 {
-  "functions": {
-    "api/subscribe.js": {
-      "runtime": "edge"
-    }
-  },
-  "routes": [
-    { "src": "/api/subscribe", "dest": "/api/subscribe.js" }
+  "rewrites": [
+    { "source": "/api/subscribe", "destination": "/api/subscribe.js" }
   ]
 }
